@@ -39,6 +39,8 @@ body {
 
 .img-container {
   opacity: initial;
+  width: 80px;
+  content: url("logo_MONARCH_square.jpg")
 }
 
 .second-column {
