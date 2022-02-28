@@ -1,0 +1,125 @@
+body {
+  color: #5D6063;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-size: 16px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  background-color: white;
+  width: 900px;
+  height: 100vh;
+  display: flex;
+}
+
+.first-column {
+  background-image: url("beach.jpg");
+  background-size: cover;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-row {
+  background-color: black;
+  opacity: 0.8;
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  margin-top: 198px;
+}
+
+.img-container {
+  opacity: initial;
+}
+
+.second-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 600px;
+  background-color: #f2f2f2;
+}
+
+form {
+  background-color: white;
+  padding: 30px;
+}
+
+form > p {
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin: 0;
+}
+
+.cell {
+  position: relative;
+  width: 200px;
+}
+
+.form-row {
+  display: flex;
+  gap: 50px;
+  padding-top: 10px;
+}
+
+.form-row input[type="text"],
+.form-row input[type="email"],
+.form-row input[type="password"],
+.form-row input[type="tel"] {
+  width: 200px;
+  height: 20px;
+  border: 1px solid #D6D9DC;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  width: 160px;
+  height: 40px;
+
+  background-color: #134a1f;
+  color: white;
+
+  border: none;
+  border-radius: 10px;
+}
+
+input[type="submit"]:active {
+  background-color: #0d3014;
+  color: gray
+}
+
+label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.intro{
+  margin: 30px;
+  font-weight: 600;
+}
+
+.account {
+  margin: 30px;
+}
+
+.cell input[type="password"] {
+  border: 1px solid #ab0011;
+}
+
+.validation_error {
+  font-size: 10px;
+  font-weight: 700;
+  color: #ab0011;
+  margin-top: 3px;
+}
+
+.account>p>a {
+  color: #134a1f;
+  text-decoration: none;
+}

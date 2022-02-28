@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sign-up Form</title>
+</head>
+<body>
+  <div class="main">
+    <div class="first-column">
+      <div class="logo-row">
+        <div class="img-container">
+          <img src="logo_monarch_square.jpg" width="80px">
+        </div>
+      </div>
+    </div>
+    <div class="second-column">
+      <div class="intro">
+        <p>This is not a real online service!
+          You can create an account or not, we do not care.
+          Sign up now to see how much we don't care!
+        </p>
+      </div>
+      <form method="post" id="sign-up">
+        <p>Let's do this!</p>
+        <div class="form-row">
+          <div class="cell">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name">
+          </div>
+          <div class="cell">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="'last-name">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="cell">
+            <label for="email">Email</label>
+            <input type="email" id="email">
+          </div>
+          <div class="cell">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="'phone">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="cell">
+            <label for="psw">Password</label>
+            <input type="password" id="psw" class="error" required>
+            <p class="validation_error">*Passwords do not match</p>
+          </div>
+          <div class="cell">
+            <label for="confirm-psw">Confirm Password</label>
+            <input type="password" id="'confirm-psw" class="error" required>
+          </div>
+        </div>
+      </form>
+      <div class="account">
+        <input type="submit" form="sign-up" value="Create account">
+        <p>Already have an account? <a href="">Log in</a></p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
